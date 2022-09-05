@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".BookingActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input1"
+        android:id="@+id/input1TextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input1EditText"
+        android:gravity="top"
+        android:inputType="text"
+        android:layout_below="@+id/input1TextView"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input2"
+        android:id="@+id/input2TextView"
+        android:layout_below="@+id/input1EditText"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input2EditText"
+        android:gravity="top"
+        android:inputType="text"
+        android:layout_below="@+id/input2TextView"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input3"
+        android:id="@+id/input3TextView"
+        android:layout_below="@+id/input2EditText"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input3EditText"
+        android:gravity="top"
+        android:inputType="text"
+        android:layout_below="@+id/input3TextView"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input4"
+        android:id="@+id/input4TextView"
+        android:layout_below="@+id/input3EditText"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input4EditText"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:gravity="top"
+        android:layout_below="@+id/input4TextView"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inputfinish_label"
+        android:textColor="@color/colorButtonText"
+        android:background="@drawable/custom_button"
+        android:id="@+id/inputfinishButton"
+        android:layout_below="@+id/input4EditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputfinishButton"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

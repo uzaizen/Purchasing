@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389167501756",
+    "project_id": "boscobelpurchasing-ef0db",
+    "storage_bucket": "boscobelpurchasing-ef0db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389167501756:android:c9d3c4eaef6f51f92b1bb9",
+        "android_client_info": {
+          "package_name": "jp.cafe_boscobel.ushio.zaizen.purchasing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389167501756-m46f41248cotiga76i8l8pme36339nh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbkMmTD75XIDiGzZw8I55pzJl5lNQ-M24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389167501756-m46f41248cotiga76i8l8pme36339nh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
